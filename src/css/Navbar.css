@@ -1,0 +1,21 @@
+.bg-dark{
+   color: rgba(255, 255, 255, 0.699);
+    background-color: rgba(0, 0, 0, 0.39) !important;
+}
+
+.float .right{
+  float: right;
+  margin-right: 10px;
+}
+
+
+.icons{
+    margin-right: 20px !important;
+    margin-top: 12px;
+}
+
+#profile {
+    width: 30px;
+    height: 30px;
+    margin-top: 8px !important;
+}

@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/repository-name/static/css/main.2cce8147.chunk.css",
+    "main.js": "/repository-name/static/js/main.a7779ba5.chunk.js",
+    "main.js.map": "/repository-name/static/js/main.a7779ba5.chunk.js.map",
+    "runtime~main.js": "/repository-name/static/js/runtime~main.f7634681.js",
+    "runtime~main.js.map": "/repository-name/static/js/runtime~main.f7634681.js.map",
+    "static/js/2.7ad91dd1.chunk.js": "/repository-name/static/js/2.7ad91dd1.chunk.js",
+    "static/js/2.7ad91dd1.chunk.js.map": "/repository-name/static/js/2.7ad91dd1.chunk.js.map",
+    "index.html": "/repository-name/index.html",
+    "precache-manifest.729a28cedfb8ff5306e704c4638aacb3.js": "/repository-name/precache-manifest.729a28cedfb8ff5306e704c4638aacb3.js",
+    "service-worker.js": "/repository-name/service-worker.js",
+    "static/css/main.2cce8147.chunk.css.map": "/repository-name/static/css/main.2cce8147.chunk.css.map",
+    "static/media/add.svg": "/repository-name/static/media/add.b1e00d66.svg",
+    "static/media/play.svg": "/repository-name/static/media/play.cb750aef.svg"
+  }
+}

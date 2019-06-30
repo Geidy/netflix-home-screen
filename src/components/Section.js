@@ -2,6 +2,9 @@ import React from 'react';
 import Card from './Card';
 import godfather2 from '../assets/mob-movies/godfather2.png';
 import ImageGallery from 'react-image-gallery';
+import "node_modules/react-image-gallery/styles/scss/image-gallery.scss";
+import "node_modules/react-image-gallery/styles/css/image-gallery.css";
+import "react-image-gallery/styles/css/image-gallery.css";
 
 class Section extends React.Component{
     constructor(){
@@ -10,7 +13,7 @@ class Section extends React.Component{
 };
 
 
-render() {    const images = [
+render() {   const images = [
         {
         thumbnail: '../assets/mob-movies/godfather2.png'
         },
@@ -31,7 +34,7 @@ render() {    const images = [
                             }
       
     ]
-
+};
 
 return(
 
@@ -51,6 +54,5 @@ return(
 
     </div>
 );
-}
 
 export default Section;

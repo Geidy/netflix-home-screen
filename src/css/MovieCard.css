@@ -1,0 +1,18 @@
+.movie-images{
+    width: 260px;
+    height: 200px;
+    margin: 0px;
+}
+
+.movie-card:hover{
+    transform: scale(1.1);
+}
+
+.movie-data{
+    font-size: 10px;
+    float: right;
+    margin: 0px;
+    line-height: 20px;
+  
+}
+

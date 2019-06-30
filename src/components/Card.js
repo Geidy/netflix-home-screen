@@ -1,13 +1,28 @@
 import React  from 'react';
+import godfather1 from '../assets/mob-movies/godfather1.jpg';
+import MovieCard from '../css/MovieCard.css';
 //import img from './assets/mob-movies/godfather1';
 
-const movies = (props) => (
+function movies (props) {
+    return (
+    <div className="movie-Card">
 
-    <div>
+        <img src={godfather1} className="movie-images" />
+
+        <div className="movie-data">
+            <p>{props.img}</p>
+        </div>
+
+    </div>
+    );
+
+}
+
+   /* <div>
         <div onClick={props.movies} className="movie">
             <img src={props.img} alt className="movie" />
         </div>
-    </div>
+    </div>*/
 
-);
-export default movies;
+
+    export default movies;

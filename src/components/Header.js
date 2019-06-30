@@ -1,14 +1,30 @@
 import React from 'react';
 import PlayLogo from '../assets/icons/play.svg';
 import AddLogo from '../assets/icons/add.svg';
+import Bambi from '../assets/cartoons/Bambi.jpg';
 //import Backdrop from './Backdrop';
 
+function Header (props) {
+  return (
+  <div>
+
+      <img src={Bambi} className="header-image" />
+
+      <div className="header-data">
+          <p>{props.name}</p>
+      </div>
+
+  </div>
+  );
+
+}
 
 
-function Header(props) {
+
+/*function Header(props) {
     const backgroundStyle = {
       backgroundSize: "cover",
-      backgroundImage: `url(https://image.tmdb.org/t/p/original/${props.movies})`,
+      backgroundImage: "../assets/mob-movies/godfather1.jpg",
       backgroundPosition: "center",
     }
   
@@ -30,6 +46,6 @@ function Header(props) {
         <div className="header--fadeBottom"></div>
       </header>
     )
-  }
+  }*/
 
   export default Header;

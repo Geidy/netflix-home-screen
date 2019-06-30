@@ -3,18 +3,19 @@ import godfather1 from '../assets/mob-movies/godfather1.jpg';
 import MovieCard from '../css/MovieCard.css';
 //import img from './assets/mob-movies/godfather1';
 
-function movies (props) {
+function movie(props) {
     return (
     <div className="movie-Card">
 
         <img src={godfather1} className="movie-images" />
 
         <div className="movie-data">
-            <p>{props.img}</p>
+            <h2>{props.movie.name}</h2>
+            <p>{props.movie.description}</p>
         </div>
 
     </div>
-    );
+    )
 
 }
 
@@ -25,4 +26,4 @@ function movies (props) {
     </div>*/
 
 
-    export default movies;
+    export default movie;

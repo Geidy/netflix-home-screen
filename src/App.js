@@ -1,17 +1,16 @@
 import React from 'react';
-//import logo from './logo.svg';
 import './App.css';
-import Card from './components/Card';
-//import Section from './components/Section';
+//import Navbar from './components/Navbar';
 import Header from './components/Header';
+import Card from './components/Card';
 
 function App() {
   return (
     <div className="App">
 
-      <Header path='./Header' component={Header} />
-      <Card path='./Card' component={Card} />
-      
+<Header/>
+<Card path='./Card' component={Card} />
+     here the components will go 
     </div>
   );
 }

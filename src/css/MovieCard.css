@@ -16,3 +16,8 @@
   
 }
 
+.movie-row{
+    display: flex;
+    flex-direction: row;
+}
+

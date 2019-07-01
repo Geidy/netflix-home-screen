@@ -1,4 +1,10 @@
-const MovieData = [
+/*import React from 'react';
+
+class MyComponent extends React.Component{
+
+    render() {
+
+const movie = [
     {
         name: 'Godfather 1',
     description: 'lorem lorem lorem lorem ipsum ipsun ndihgd noda todo ipsun',
@@ -31,4 +37,11 @@ const MovieData = [
                         }
   
 ]
-export default MovieData;
+
+return(
+    <ImageGallery items={movie} />
+);
+}
+}
+
+export default movie; */

@@ -1,4 +1,15 @@
-.title{
-   /* margin: 0; */
-   float: left;
+ .title{
+color: rgba(255, 255, 255, 0.829);
+margin-top: 50px;
+margin-left: 20px;
+
+} 
+
+.arrow{
+    z-index: 1;
+   position: absolute;
+   top: 200px;
+   left: 1380px;
+    width: 30px;
+    height: 60px;
 }

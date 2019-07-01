@@ -10,16 +10,19 @@ import godfather3 from '../assets/mob-movies/godfather3.jpg'
 import scarface from '../assets/mob-movies/scarface.jpg'
 
 
-
 class Section extends React.Component {
 
 
     render() {
         var images = [mafia, godfather1, godfather2, bronxtale, godfather3, scarface];
+      
 
         const imagesMap = images.map(i => <Card key={i} img={i} />)
+        
 
         console.log(imagesMap);
+        
+       
 
         return (
 
@@ -30,7 +33,10 @@ class Section extends React.Component {
                 <div className="card">
                     {imagesMap}
 
+                   
                 </div>
+                
+
 
 
             </div>

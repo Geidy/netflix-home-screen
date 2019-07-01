@@ -11,12 +11,15 @@ function Card(props) {
 
 
     return (
-        <div className="card">
 
-            <img src={props.img} className="img-styling" />
+    
 
+            <div className="card">
 
-        </div>
+                <img src={props.img} className="img-styling" />
+
+            </div>
+  
     )
 }
 

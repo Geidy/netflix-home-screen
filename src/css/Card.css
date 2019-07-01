@@ -1,9 +1,24 @@
+
+.images{
+    white-space: nowrap;
+    overflow-x: scroll;
+  
+
+}
+
 .card{
     display: inline;
-    /* float: left; */
+    background-color: rgba(0, 0, 0);
+}
+
+
+.img-styling:hover{
+    transform: scale(1.2);
 }
 
 .img-styling{
     width: 250px;
-    height: 150px;
+    height: 200px;
+    margin: 20px;
+    transition: transform .1s;
 }

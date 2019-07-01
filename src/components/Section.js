@@ -19,17 +19,16 @@ class Section extends React.Component {
 
         const imagesMap = images.map(i => <Card key={i} img={i} />)
 
-        console.log(imagesMap);
+
 
         return (
 
             <div>
 
-                <h1 className="title">{this.props.title} </h1> <br />
+                <h2 className="title">{this.props.title} </h2>
 
-                <div className="card">
+                <div className="images">
                     {imagesMap}
-
                 </div>
 
 

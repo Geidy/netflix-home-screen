@@ -1,0 +1,9 @@
+.card{
+    display: inline;
+    /* float: left; */
+}
+
+.img-styling{
+    width: 250px;
+    height: 150px;
+}

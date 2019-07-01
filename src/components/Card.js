@@ -1,18 +1,24 @@
-import React  from 'react';
-import godfather1 from '../assets/mob-movies/godfather1.jpg';
-import MovieCard from '../css/MovieCard.css';
+import React from 'react';
+
+
+import '../css/Card.css';
+import '../css/Section.css';
+
+
+
 
 function Card(props) {
+
+
     return (
-    <div className="movie-Card">
+        <div className="card">
 
-        <img src={godfather1} className="movie-images" />
+            <img src={props.img} className="img-styling" />
 
-        
-   
-       </div>
+
+        </div>
     )
 }
 
 
-    export default Card;
+export default Card;

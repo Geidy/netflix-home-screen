@@ -8,9 +8,9 @@ function App() {
   return (
     <div className="App">
 <Navbar/>
-<Header/>
+
 <Section title= "Mob Movies"/>
-     here the components will go 
+  
     </div>
   );
 }

@@ -9,7 +9,7 @@ import bronxtale from '../assets/mob-movies/bronxtale.jpg'
 import godfather3 from '../assets/mob-movies/godfather3.jpg'
 import scarface from '../assets/mob-movies/scarface.jpg'
 
-import arrow from '../assets/icons/arrow.png'
+
 
 class Section extends React.Component {
 

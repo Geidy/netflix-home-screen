@@ -28,9 +28,9 @@ class Section1 extends React.Component {
 
             <div>
 
-                <h1 className="title">{this.props.title} </h1> <br />
+                <h4 className="title">{this.props.title} </h4> <br />
 
-                <div className="card">
+                <div className="images">
                     {images1Map}
 
                    

@@ -1,4 +1,5 @@
 import React from 'react';
+import "../css/Header.css";
 
 import Bambi from '../assets/cartoons/Bambi.jpg';
 
@@ -7,10 +8,10 @@ function Header (props) {
   <div>
 
       <img src={Bambi} className="header-image" />
+      <button className="button">Play</button>
+      <button className="button1"> + My List</button>
 
-      <div className="header-data">
-          <p>{props.name}</p>
-      </div>
+     
 
   </div>
   );

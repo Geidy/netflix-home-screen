@@ -20,7 +20,7 @@
 }
 
 .button:hover{
-    background-color: yellowgreen;
+    background-color: rgb(235, 128, 226);
     color: azure;
 }
 
@@ -42,6 +42,6 @@
 }
 
 .button1:hover{
-    background-color: yellowgreen;
+    background-color: rgb(235, 128, 226);
     color: azure;
 }

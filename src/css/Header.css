@@ -1,0 +1,47 @@
+.header-image{
+    width: 1200px;
+    height: 500px;
+
+}
+.button{
+    position: absolute;
+    left: 50px;
+    top: 350px;
+    background-color: #4CAF50; /* Green */
+    opacity: 0.7;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.button:hover{
+    background-color: yellowgreen;
+    color: azure;
+}
+
+.button1{
+    position: absolute;
+    left: 150px;
+    top: 350px;
+    background-color: #4CAF50; /* Green */
+    opacity: 0.7;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+    font-weight: bold;
+}
+
+.button1:hover{
+    background-color: yellowgreen;
+    color: azure;
+}
